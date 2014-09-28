@@ -13,8 +13,10 @@ And directory design is below.
 
 |Path|the contents of the directory|
 |:---|:---|
-|./honyomi/data/|rroonga fulltext database files|
-|./honyomi/public/|DocumentRoot|
+|data/|HONYOMI_DATABASE_DIR|
+|vendor/|Gem install dir|
+|book/|Book files (.pdf, etc)|
+|public/|DocumentRoot|
 
 ### Step1. Install Honyomi
 
@@ -22,7 +24,7 @@ And directory design is below.
 $ cd /var/www/html
 $ git clone https://github.com/ongaeshi/honyomi-web.git honyomi
 $ cd /var/www/html/honyomi
-$ bundle install
+$ bundle install --path vendor/bundle
 ```
 
 ### Step2. Initialize Honyomi Database
