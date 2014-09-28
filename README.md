@@ -1,4 +1,4 @@
-# honyomi-web
+# Honyomi Web
 
 It is a bundler template of Honyomi web application for apache passenger.
 
