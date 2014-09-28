@@ -1,4 +1,4 @@
 AuthType     Basic
 AuthName     "Honyomi"
 AuthUserFile /path/to/.htpasswd
-require valid-user
+require      valid-user
