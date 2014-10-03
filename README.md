@@ -31,6 +31,10 @@ $ cd /var/www/html/honyomi
 $ bundle install --path vendor/bundle
 ```
 
+When you faild to install Honyomi, Please refer.
+
+- [Honyomi#Installation](https://github.com/ongaeshi/honyomi#installation)
+
 ### Step2. Initialize Honyomi Database
 
 ```
