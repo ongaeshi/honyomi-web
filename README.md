@@ -1,6 +1,6 @@
 # Honyomi Web
 
-It is a bundler template of Honyomi web application for apache passenger.
+It is a bundler template of [Honyomi](https://github.com/ongaeshi/honyomi) web application for apache passenger.
 
 Honyomi is a ebook (pdf) search engine written by Ruby. It have command line interface and web application. It will accelerate the ebook of your life.
 
